@@ -1,32 +1,48 @@
-# end to end mdeical chatbot using the Generative ai
+# End-to-End Medical Chatbot
 
-# How to run
+An intelligent medical chatbot powered by Generative AI to provide medical information and assistance.
 
-Clone the repository
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Git
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   cd End-to-End-medical-Chatbot
+   ```
+
+2. **Create a virtual environment**
+
+   Using Conda:
+
+   ```bash
+   conda create -n medicalbot python=3.8 -y
+   conda activate medicalbot
+   ```
+
+   Or using Python venv:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Run the application:
 
 ```bash
-project repo: https://github.com
+python app.py
 ```
-
-# Steps 1- Create a conda env after the opening the repo
-
-```bash
-conda ceate -n llmap python=3.8 -y
-```
-
-```bash
-conda activate lllmap
-```
-
-or
-
-````bash
-python -m venv venv
-
-source venv/bin/activate
-
-### Set 02 - Install the requirements
-
-```bash
-pip install -r requirements.txt
-````
